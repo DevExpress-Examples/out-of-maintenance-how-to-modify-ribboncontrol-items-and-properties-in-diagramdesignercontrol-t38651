@@ -1,0 +1,19 @@
+﻿<ResourceDictionary 
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+                    xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+                    xmlns:dxdiag="http://schemas.devexpress.com/winfx/2008/xaml/diagram"
+                    xmlns:dxdiagt="clr-namespace:DevExpress.Xpf.Diagram.Themes;assembly=DevExpress.Xpf.Diagram.v16.1"
+                    xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <Style x:Key="{dxdiagt:DesignerControlCommandsThemeKeys ResourceKey=PasteCommandItemStyle, IsThemeIndependent=True}" TargetType="{x:Type dxb:BarButtonItem}">
+        <Style.Setters>
+            <Setter Property="Content" Value="Custom Paste"/>
+            <Setter Property="Glyph" Value="{dx:DXImage Image=GlobalColorScheme_16x16.png}"/>
+            <Setter Property="LargeGlyph" Value="{dx:DXImage Image=GlobalColorScheme_32x32.png}"/>
+            <Setter Property="Command" Value="{Binding Commands.Paste, RelativeSource={RelativeSource TemplatedParent}}"/>
+        </Style.Setters>
+    </Style>
+</ResourceDictionary>
