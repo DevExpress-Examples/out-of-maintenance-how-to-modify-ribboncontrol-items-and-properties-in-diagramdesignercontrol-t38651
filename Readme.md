@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[MainWindow.xaml](./CS/DXDiagram.CustomizeRibbon/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXDiagram.CustomizeRibbon/MainWindow.xaml))**
+* [RibbonStyles.xaml](./CS/DXDiagram.CustomizeRibbon/RibbonStyles.xaml) (VB: [RibbonStyles.xaml](./VB/DXDiagram.CustomizeRibbon/RibbonStyles.xaml))
+<!-- default file list end -->
 # How to: Modify RibbonControl Items and Properties in DiagramDesignerControl
 
 
