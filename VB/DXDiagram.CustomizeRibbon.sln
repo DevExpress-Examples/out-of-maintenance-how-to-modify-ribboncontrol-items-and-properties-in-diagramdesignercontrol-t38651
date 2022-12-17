@@ -1,4 +1,4 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -23,7 +23,7 @@ Global
 	EndGlobalSection
 	GlobalSection(SourceCodeControl) = preSolution
 		SccNumberOfProjects = 2
-		SccProjectUniqueName0 = DXDiagram.CustomizeRibbon\\DXDiagram.CustomizeRibbon.csproj
+		SccProjectUniqueName0 = DXDiagram.CustomizeRibbon\\DXDiagram.CustomizeRibbon.vbproj
 		SccProjectName0 = $/2016.1/XPF/DevExpress.Xpf.Diagram/Samples/DXDiagram.CustomizeRibbon/DXDiagram.CustomizeRibbon
 		SccLocalPath0 = DXDiagram.CustomizeRibbon
 		SccLocalPath1 = .
